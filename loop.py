@@ -43,3 +43,6 @@ for word in words:
             break
     else:
         print(f"'{word}' has no vowels")
+
+for num in range(3):
+    print(num)
