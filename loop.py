@@ -51,7 +51,7 @@ for num in range(3):
 for num in range(1, 5):
     print(num)
 
-range(start, stop, step)
+# range(start, stop, step)
 for num in range(2, 11, 2):
     print(num)
 
