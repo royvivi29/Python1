@@ -1,0 +1,19 @@
+Class is the template or the blueprint and an object is what is created using that template
+
+class ClassName:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age 
+    
+    def sample_method(self):
+        print(self.name.upper())
+
+__init__ is always a reference to the specific object being created pr used.
+
+object_1 = ClassName(attribute_1, attribute_2)
+object_2 = ClassName(attribute_1, attribute_2)
+
+you can call any of the method defined in the class from each object
+
+object_1.method_name()
+object_2.method_name()
