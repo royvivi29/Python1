@@ -12,3 +12,16 @@ class Wallet:
 
 account = Wallet(500)
 print(account.__balance) 
+
+class Car:
+    def __init__(self, brand):
+        self.brand = brand
+        self.speed = 0
+
+    def accelerate(self):
+        self.speed += 10
+        print(f"{self.brand} is going {self.speed} km/h")
+
+
+c1 = Car("Tesla")
+c1.accelerate()
